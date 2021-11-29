@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{d9q8Hsu0-8mRzL1C{!f">ventilon</variable><variable id="n)=`OwZrcupRv1O5@3:#">todooff</variable><variable id="kdF*zzzSth%W%[iUh-?:">humidon</variable><variable id="Vy]yN4jE7x.2YGevqYN-">esperaire</variable></variables><block type="pxt-on-start" id="p.%xeAP)KNWKxNvMnHx7" x="-553" y="15"><statement name="HANDLER"><block type="bluetooth_start_uart_service" id="VaM6[{=%%JrX4_D`E#hx"><next><block type="variables_set" id="F9)+R+L(w7~v[qNsn,Hf"><field name="VAR" id="{d9q8Hsu0-8mRzL1C{!f">ventilon</field><value name="VALUE"><shadow type="math_number" id="t0aQF48CZXg2[[WNsu:s"><field name="NUM">60000</field></shadow></value><next><block type="variables_set" id="6hZYaefHxjvB=Gz,pTSW"><field name="VAR" id="Vy]yN4jE7x.2YGevqYN-">esperaire</field><value name="VALUE"><shadow type="math_number" id="qw@qQL~/|yLt]|zW}gO1"><field name="NUM">300000</field></shadow></value><next><block type="variables_set" id="8aGqYb-Qy,.rvGt1(|Sk"><field name="VAR" id="kdF*zzzSth%W%[iUh-?:">humidon</field><value name="VALUE"><shadow type="math_number" id="%J9t-,=m;_/LyY*45HVl"><field name="NUM">120000</field></shadow></value><next><block type="variables_set" id="Vis=RL~o@e_28LYf-@9*"><field name="VAR" id="n)=`OwZrcupRv1O5@3:#">todooff</field><value name="VALUE"><shadow type="math_number" id="(;8x7-=;^Y1E}Fm7m0]c"><field name="NUM">1200000</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="A_F+JGn-Kw(}{,-ry|OK" x="0" y="0"><statement name="HANDLER"><block type="device_set_digital_pin" id="O]:d=vrBZR~GICOI`o|Y"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="W+;(JJZ(CBBa%O@.{r%F"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="`SoZ?ow-8ErEHXFh*k?;"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # # # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_pause" id=";iLgrb)~.pqI57VGQHF_"><value name="pause"><shadow type="timePicker"><field name="ms">10000</field></shadow><block type="variables_get" id=".fs|U7vo]W;]G=DH{MkG"><field name="VAR" id="{d9q8Hsu0-8mRzL1C{!f">ventilon</field></block></value><next><block type="device_show_leds" id="]i|Vt85TmgSyL9:4sP+F"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_set_digital_pin" id="FoWm[G5n;18Ax8VdIKcW"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="om8~eLE`}{_E2zQIFZzC"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="]7CkkIvC!Sm|!7HVVw4o"><value name="pause"><shadow type="timePicker"><field name="ms">10000</field></shadow><block type="variables_get" id="UUG)B/iLi7T~x:e;LrYk"><field name="VAR" id="Vy]yN4jE7x.2YGevqYN-">esperaire</field></block></value><next><block type="device_show_leds" id="U2xL,h!W;(xN-WXR~7_c"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_set_digital_pin" id="8xOfVWaSA-dzQ7~1s{l6"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="d4ERKRL86G,A.^O.I/e~"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_set_digital_pin" id="LJw@X/~H:m6}ryOtIoHg"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="z#NiK@w%Kc`va5L~+Q?g"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_pause" id="yP[U$#0T[Y]LGdYmx]D4"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow><block type="variables_get" id="+DC9eeY(/^mmwt5NR(?m"><field name="VAR" id="kdF*zzzSth%W%[iUh-?:">humidon</field></block></value><next><block type="device_show_leds" id="+qGQ%T-S*`wiyc/p-w[s"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_set_digital_pin" id="Gnk;^PSPN%vcuA8yPE^D"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="SmiS42H4Dq54Bud2QNK="><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_set_digital_pin" id="B8moL,dX(30`|i_|Dton"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="zMORPl$-q_^EuI`*t??S"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="[hJ{7J4Yw!^/hdDq=+W/"><value name="pause"><shadow type="timePicker"><field name="ms">10000</field></shadow><block type="variables_get" id="#ew5ZpQsfR?C}G(TIU5("><field name="VAR" id="n)=`OwZrcupRv1O5@3:#">todooff</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="bluetooth_on_connected" id="xZ%=9MoO*PFOQtPvhB2o" x="-543" y="487"><statement name="HANDLER"><block type="device_show_leds" id="eH~/JZDm=~@z(-KP%wIP"><field name="LEDS">`
+        . . # # . 
+        # . # . # 
+        . # # # . 
+        # . # . # 
+        . . # # .
+        `</field></block></statement></block></xml>
